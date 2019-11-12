@@ -30,10 +30,10 @@ while True:
         chosenOption = 3
     elif option == "exit":
         print("You forfeited " + "\nIt took " + str(matchCounter) + " matches to forfeit\nWins: " + str(winAmmount) + "\nTies: " + str(tieAmmount) + "\nLosses: " + str(lossAmmount))
-        file1 = open("myfile.txt","w") 
-        L = ["Matches: " + str(matchCounter) + "\nWins: " + str(winAmmount) +" \nLosses: " + str(lossAmmount) + "\nTies: " + str(tieAmmount)]
-        file1.writelines(L) 
-        file1.close()
+        txtFile = open("results.txt","w") 
+        inputTxt = ["Matches: " + str(matchCounter) + "\nWins: " + str(winAmmount) +" \nLosses: " + str(lossAmmount) + "\nTies: " + str(tieAmmount)]
+        txtFile.writelines(inputTxt) 
+        txtFile.close()
         exit()
     else:
         chosenOption = 4
@@ -110,17 +110,17 @@ while True:
     #Checking if you succed in beating the computer or lose
     if compLives < 1:
         print("YOU ARE THE CHAMPION CONGRATULAITONS\nIt took " + str(matchCounter) + " matches to win\nWins: " + str(winAmmount) + "\nTies: " + str(tieAmmount) + "\nLosses: " + str(lossAmmount))
-        file1 = open("myfile.txt","w") 
-        L = ["Matches: " + str(matchCounter) + "\nWins: " + str(winAmmount) +" \nLosses: " + str(lossAmmount) + "\nTies: " + str(tieAmmount)]
-        file1.writelines(L) 
-        file1.close()
+        txtFile = open("results.txt","w") 
+        inputTxt = ["Matches: " + str(matchCounter) + "\nWins: " + str(winAmmount) +" \nLosses: " + str(lossAmmount) + "\nTies: " + str(tieAmmount)]
+        txtFile.writelines(inputTxt) 
+        txtFile.close()
         exit()
     elif lives < 1:
         print("You lost better luck next time!\nIt took " + str(matchCounter) + " matches to lose\nWins: " + str(winAmmount) + "\nTies: " + str(tieAmmount) + "\nLosses: " + str(lossAmmount))
-        file1 = open("myfile.txt","w") 
-        L = ["Matches: " + str(matchCounter) + "\nWins: " + str(winAmmount) +" \nLosses: " + str(lossAmmount) + "\nTies: " + str(tieAmmount)]
-        file1.writelines(L) 
-        file1.close()
+        txtFile = open("results.txt","w") 
+        inputTxt = ["Matches: " + str(matchCounter) + "\nWins: " + str(winAmmount) +" \nLosses: " + str(lossAmmount) + "\nTies: " + str(tieAmmount)]
+        txtFile.writelines(inputTxt) 
+        txtFile.close()
         exit()
 
 #Copyright © Viktor Landström 2019
