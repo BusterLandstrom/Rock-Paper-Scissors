@@ -22,7 +22,7 @@ while True:
     #Player choses option
     option = input("What option will you choose? Rock, Paper, Scissors or Exit\n").lower()
 
-    #Translate the option into a number (I know i could do this more efficient but i dont care)
+    #Translate the option into a number (I know i could do this more efficient but it works fine like this for now)
     if option == "rock":
         chosenOption = 1
     elif option == "paper":
