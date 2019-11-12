@@ -11,6 +11,7 @@ numOptionsArray = [1,2,3]
 chosenOption = 0
 resultArray = ["Tie","Win","Lose"]
 matchCounter = 0
+
 while True:
 
     #Starting all variables for each round
