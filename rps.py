@@ -1,4 +1,4 @@
-#Set Values that should not be updated every rond (only in the beggining)
+#Set Values that should not be updated every round (only in the beggining)
 import time
 import random
 lives = 10
