@@ -1,4 +1,4 @@
 "# Rock-Paper-Scissors"  
 Things to impliment:  
-    - Neural Network impimentations  
+    - Neural Network impimentation  
     - Fix methods  
