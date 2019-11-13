@@ -125,4 +125,3 @@ while True:
         exit()
 
 #Copyright © Viktor Landström 2019
-#P.S I will build separate methods for each step
